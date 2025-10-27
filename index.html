@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        #log-box {
+            width: 341px;
+            height: 400px;
+            background: rgba(255,255,255, 0.3);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            color: white;
+            position: absolute;
+            border-radius: 17px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            border: 2px solid rgba(255,255,255, 0.3);
+            
+        }
+        #login-header {
+            text-align: center;
+             justify-content: space-between;
+        }
+        #user{
+            margin-top: 85px;
+            margin-bottom: 35px;
+            padding-top:5px;
+            padding-bottom:5px ;
+            padding-left:25px ;
+            padding-right:25px ;
+            border-radius:25px ;
+            border: none;
+
+        }
+        #pass {
+           margin-bottom: 70px; 
+            padding-top:5px;
+            padding-bottom:5px ;
+            padding-left:25px ;
+            padding-right:25px ;
+            border-radius:25px ;
+            border: none;
+
+        }
+        body {
+           background-color: white;
+           height: 100vh; 
+           margin: 0;
+        
+           
+        }
+        #login-button {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 50px;
+            padding-right:50px ;
+            border: none;
+            border-radius: 25px;
+            background-color: rgb(90, 176, 247);
+            font-weight: bold;
+            font-size: large;
+        }
+            
+        
+        
+
+    </style>
+</head>
+<body>
+    
+    <div id="container">
+         
+     <div id="log-box">
+        <div id="header">
+            <h1 id="login-header">Login</h1>
+       </div>
+   <input type="text" id="user" placeholder="Username">
+   <input type="password" id="pass" placeholder="password">
+   <button id="login-button">Sign in</button>
+    </div>
+   </div>
+    
+</body>
+
+</html>
+
+
+
